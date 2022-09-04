@@ -1,18 +1,20 @@
-\#Introduction Hello welcome to our introduction CTF. This CTF is to
-give you an idea of how does ethical hacking works within a CTF
-environment. If you don’t know what a CTF, a CTF is basically a
-exercise/game in which “flag” are hidden within purposefully-vulnerable
-programs or websites. A CTF flag would look something
-“CTF{g3t\_g00d\_n00b2}” and would be hidden within a root/admin folder.
-There are multiple types of CTFs such as: Forensic CTFs (which utilities
-digital forensics), Web CTFs where the attacker attacks a web server
-(which is what we will be covering today), Reverse Engineering (which
-involve exploiting a program binary), etc.
+Introduction
+============
+
+Hello welcome to our introduction CTF. This CTF is to give you an idea
+of how does ethical hacking works within a CTF environment. If you don’t
+know what a CTF, a CTF is basically a exercise/game in which “flag” are
+hidden within purposefully-vulnerable programs or websites. A CTF flag
+would look something “CTF{g3t\_g00d\_n00b2}” and would be hidden within
+a root/admin folder. There are multiple types of CTFs such as: Forensic
+CTFs (which utilities digital forensics), Web CTFs where the attacker
+attacks a web server (which is what we will be covering today), Reverse
+Engineering (which involve exploiting a program binary), etc.
 
 The platform that this CTF will be hosted is TryHackMe but they are many
 other websites such as HacktheBox, PicoCTF, etc.
 
-\#Prerequisites: \* This guide assumes you have already installed and
+Prerequisites: \* This guide assumes you have already installed and
 setup a Linux distro. \* This also assumes your familiar with your
 Distribution’s package manager and can use it from the command line. \*
 OpenVPN \* Gobuster \* A Linux Distribution running in a VM, WSL, Docker
