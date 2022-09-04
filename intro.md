@@ -47,24 +47,24 @@ and select in the drop down box “Access”.
 ![Figure 2](./Step.png) Then click “Download my Configuration File” once
 you have selected the closest VPN Server.
 
-![Figure 3] (./Terminal.png) Finally open a terminal but clicking it on
+![Figure 3](./Terminal.png) Finally open a terminal but clicking it on
 desktop menu or by using the keyboard shortcut “Ctrl+Alt+Del” cd into
 your Downloads directory then type in "sudo openvpn *Your THM
 Username*.ovpn to load the OpenVPN configuration file (Please keep the
 terminal window that OpenVPN is running open).
 
-![Figure 4] (./Status.png) Then check the access to verify that your is
+![Figure 4](./Status.png) Then check the access to verify that your is
 connected to the THM Network. Now you’re ready for hacks :D.
 
 Step 2 - Deploy your VM
 =======================
 
-![Figure 5] (./Start_Machine.png)
+![Figure 5](./Start_Machine.png)
 
 Click on Start Machine to begin and wait 1 minute for the IP address to
 display.
 
-![Figure 6] (./FakeBank.png) Once the IP address has been displayed,
+![Figure 6](./FakeBank.png) Once the IP address has been displayed,
 paste the IP address into your browser search box and the “fakebank”
 webpage should appear.
 
@@ -83,13 +83,13 @@ Use the command “gobuster -u *THM IP Address* -w *your\_wordlist* dir”
 this command performs a brute-force directory attack on the fakebank
 website.
 
-![Figure 7] (./dir.png) The directories that are found within the
+![Figure 7](./dir.png) The directories that are found within the
 wordlist are accessible pages on the website.
 
 Step 4 - Breaking the bank
 ==========================
 
-![Figure 8] (./Admin_Tool.png) The -transfer page should appear within
+![Figure 8](./Admin_Tool.png) The -transfer page should appear within
 the scan. This secret bank transfer webpage allows the attacker to steal
 money from any bank account registered with fakebank. This is a highly
 critical risk to the bank. Since we are ethical hackers in training
