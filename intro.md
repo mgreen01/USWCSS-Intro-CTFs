@@ -32,10 +32,12 @@ OS LTS) for least 30 minutes a day (That’s how I learned it :) ) or
 watch this playlist by Network Chuck:
 <a href="https://www.youtube.com/playlist?list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL" class="uri">https://www.youtube.com/playlist?list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL</a>.
 
-\#Step 1 - Connect to TryHackMe via OpenVPN Download and install OpenVPN
-from your distro repos (If it’s not installed). “Sudo apt install
-openvpn”. Then login to TryHackMe, create an account if you don’t
-already have.
+Step 1 - Connect to TryHackMe via OpenVPN
+=========================================
+
+Download and install OpenVPN from your distro repos (If it’s not
+installed). “Sudo apt install openvpn”. Then login to TryHackMe, create
+an account if you don’t already have.
 
 ![TryHackMe Profile drop-down box](./OpenVPN.png) Click on your profile
 and select in the drop down box “Access”.
@@ -52,7 +54,8 @@ terminal window that OpenVPN is running open).
 \[Figure 4\] (./Status.png) Then check the access to verify that your is
 connected to the THM Network. Now you’re ready for hacks :D.
 
-\#Step 2 - Deploy your VM
+Step 2 - Deploy your VM
+=======================
 
 \[Figure 5\] (./Start\_Machine.png)
 
@@ -63,7 +66,8 @@ display.
 paste the IP address into your browser search box and the “fakebank”
 webpage should appear.
 
-\#Step 3 - It’s Gobusting Time
+Step 3 - It’s Gobusting Time
+============================
 
 We will be using the program “Gobuster” to brute-force the webpage for
 possible server directories using a word list. Check for dirbuster
@@ -80,7 +84,8 @@ website.
 \[Figure 7\] (./dir.png) The directories that are found within the
 wordlist are accessible pages on the website.
 
-\#Step 4 - Breaking the bank
+Step 4 - Breaking the bank
+==========================
 
 \[Figure 8\] (./Admin\_Tool.png) The -transfer page should appear within
 the scan. This secret bank transfer webpage allows the attacker to steal
